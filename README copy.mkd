@@ -1,0 +1,46 @@
+# 👥 Registro de Usuarios con Django
+
+¡Bienvenido al proyecto de registro de usuarios con Django! Este proyecto te permite registrar nombres y correos electrónicos de usuarios de manera sencilla y efectiva. 😎
+
+## ¿Cómo Configurar el Proyecto?
+
+1. **Clonar el Repositorio:** Comienza clonando este repositorio en tu computadora local. Puedes hacerlo con el siguiente comando:
+
+   ```bash
+   git clone https://github.com/lagomoura/Django_register_user
+
+2. **Instalar Dependencias:** Navega hasta la carpeta del proyecto y crea un entorno virtual de Python. Luego, instala las dependencias on:
+
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # En Windows: venv\Scripts\activate
+   pip install -r requirements.txt
+
+3. **Migraciones de la Base de Datos:** Realiza las migraciones de la base de datos para crear las tablas necesarias:
+
+   ```bash
+   python manage.py migrate
+
+4. **Ejecutar el Servidor:** Finalmente, inicia el servidor de desarrollo de Django:
+
+   ```bash
+   python manage.py runserver
+
+5. **Abre tu navegador** y ve a http://localhost:8000 para ver la aplicación en acción. 🚀
+
+
+### ¿En resumen, cómo Clonar y Ejecutar el Proyecto?
+
+Si deseas compartir este proyecto con otras personas, aquí tienes los pasos para que ellos también puedan clonarlo y ejecutarlo:
+
+Clonar el Repositorio: La persona interesada puede clonar el repositorio en su computadora local usando el comando mencionado anteriormente.
+
+Instalar Dependencias: Deben seguir el paso 2 mencionado en la sección de configuración para instalar las dependencias necesarias.
+
+Migraciones de la Base de Datos: Luego, deben ejecutar las migraciones de la base de datos como se indicó en el paso 3.
+
+Ejecutar el Servidor: Finalmente, pueden iniciar el servidor con el comando mencionado en el paso 4 y acceder a la aplicación en su navegador.
+
+¡Listo! Ahora, cualquiera puede clonar y ejecutar el proyecto en su navegador. 😄 Si tienes alguna pregunta o sugerencia, no dudes en abrir un issue en este repositorio. ¡Disfruta registrando usuarios con Django!
+
+
