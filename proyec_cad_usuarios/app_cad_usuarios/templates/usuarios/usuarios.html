@@ -1,0 +1,22 @@
+{% extends 'usuarios/base.html' %} {% block contenido %}
+<div class="container p-5">
+	<h1 class="text-center p-2">Usuarios Registrados</h1>
+	<table class="table table-bordered table table-striped">
+		<tr>
+			<th>Id</th>
+			<th>Nombre</th>
+			<th>Email</th>
+		</tr>
+		{% for usuario in usuarios%}
+		<tr>
+			<td>{{usuario.id_usuario}}</td>
+			<td>{{usuario.nombre}}</td>
+			<td>{{usuario.email}}</td>
+		</tr>
+		{% endfor %}
+	</table>
+</div>
+{% endblock %}
+
+
+<!--! FALTA AJUSTAR EXEPCION  -->

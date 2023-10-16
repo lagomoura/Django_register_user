@@ -1,0 +1,24 @@
+{% extends 'usuarios/base.html' %}
+{% block contenido %}
+<form action="{% url 'usuarios' %}" method="post">
+	{% csrf_token %}
+	<div class="container" style="text-align: center; padding-top: 5px">
+		<h1>Registro de usuarios</h1>
+		Nome
+		<input
+			name="nombre"
+			type="text"
+			class="form-control-sm"
+			placeholder="Su nombre"
+		/>
+		Email
+		<input
+			name="email"
+			type="email"
+			class="form-control-sm"
+			placeholder="email@example.com.ar"
+		/>
+		<button class="form-control-sm">Salvar</button>
+	</div>
+</form>
+{% endblock %}
