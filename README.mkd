@@ -2,6 +2,10 @@
 
 ¡Bienvenido al proyecto de registro de usuarios con Django! Este proyecto te permite gestionar registros de nombres y correos electrónicos de usuarios de manera sencilla y efectiva. 🌟
 
+![Image my app Django](image.png)
+
+![List of registred users](image-1.png)
+
 ## Características ✨
 
 - ✏️ Creación de nuevos registros.
